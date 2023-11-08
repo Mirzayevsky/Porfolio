@@ -35,3 +35,24 @@ ul,
 li {
     list-style-type: none;
 }
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  span::selection{
+    color: #1d1d1b;
+    background-color: #fff55f;
+  
+  }
+  
+  div::selection{
+    color: #1d1d1b;
+    background-color: #fff55f;
+  
+  }
+  ::-webkit-scrollbar{
+    width: 0;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(2, 212, 184);
+  }
