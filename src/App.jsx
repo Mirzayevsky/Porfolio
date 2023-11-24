@@ -1,9 +1,13 @@
+import Home from "./pages/home/home"
+import React from "react"
+import { AppWrapper } from "./styles/styles"
 
 function App() {
     return (
-        <div>
-            hello
-        </div>
+           <React.Fragment>
+             <Home/>
+             <AppWrapper/>
+           </React.Fragment>
       
     )
 }
